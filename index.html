@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Property Website</title>
+</head>
+<body>
+
+<section>
+
+	<div class="header">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light navbglight topnavbar">
+         <div class="container">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav topnavbarlist">
+
+        <li class="nav-item dropdown navlistiem">
+          <a class="nav-link dropdown-toggle anchorlist" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+          <div class="dropdown-menu mydropmenu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Listing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Property
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Blog
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+        <li>
+        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contact
+          </a>
+      </li>
+    
+      </ul>
+    </div>
+     </div>
+        <!-- Last 3 items in navbar -->
+     <div class="sign">
+       <a href=""> Sign In</a>
+     </div>
+     <div class="himary">
+         <span>
+            <img src="https://code-theme.com/html/findhouses/images/testimonials/ts-1.jpg">
+      
+         </span>
+        <ul class="nav nav-pills">
+       <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Hi Marry!</a>
+         <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+         </ul>
+      </li>  
+        </ul>
+     </div>
+
+     <div class="listbutton">
+       <a class="btn" role="button" href="">
+        <span>Add listing </span>
+        <i class="fas fa-laptop-house ml-2"></i>
+       </a>
+
+     </div>
+     <!-- last 3 items closed -->
+    </nav>
+
+    <!-- welcome text in middle of hearder img -->
+     <div class="welcometext">
+       <h1>
+         Find your dreams
+         <br class="d-md-none">
+         <span class="typed border-bottom">House </span>
+         <span class="typed-cursor typed-cursor--blink">|</span>
+       </h1>
+       <p>We have over million property for you</p>
+     </div>
+    <!-- welcome text closed -->
+     <div class="Propertysearch">
+           <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item mylist" role="presentation">
+                <button class="nav-link active mybtn" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">For Sale</button>
+              </li>
+              <li class="nav-item mylist" role="presentation">
+                <button class="nav-link mybtn " id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">For Rent</button>
+              </li>
+             
+            </ul>
+
+            <!-- Property Search bar -->
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                    <div class="container mycontainer">
+                <div class="card mycard">
+                  <div class="card-body mycardbody">
+                    <!-- <h5 class="card-title">Property Search</h5> -->
+                    <form>
+                      <div class="form-row myform">
+                        <div class="form-group col-md-6">
+                          <input type="text" class="form-control myformcontrol" placeholder="Enter keyword">
+                        </div>
+                        <div class="form-group col-md-3">
+                          <select class="form-select myformselect" id="propertyType">
+                            <option selected>Property Type</option>
+                            <option value="house">House</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="condo">Condo</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                          <select class="form-select myformselect" id="location">
+                            <option selected>Location</option>
+                            <option value="city">City</option>
+                            <option value="suburb">Suburb</option>
+                            <option value="countryside">Countryside</option>
+                          </select>
+                        </div>
+                      </div>
+                      <button class="btn  mybtnprimary">Search</button>
+                    </form>
+                       <!-- Advance Search bar -->
+
+                    <div class=" mt-5">
+                         <button id="toggle-button" class="btn mytogglebtn ">
+                                  Advance Search
+                          </button>
+                          <div id="hidden-content" class="mt-3">
+                            <script>
+                                const toggleButton = document.getElementById('toggle-button');
+                                const hiddenContent = document.getElementById('hidden-content');
+                                let isVisible = false;
+
+                                toggleButton.addEventListener('click', () =>{
+                                  if (isVisible) {
+                                    hiddenContent.style.display = 'none';
+                                  } else {
+                                    hiddenContent.style.display = 'block';
+                                  }
+                                  isVisible = !isVisible;
+                                });
+                            </script>
+
+                         <div class="container mt-4 mymt4">
+                         <div class="row">
+                         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        
+                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mynavbar1">
+                              <li class="nav-item mynavitem dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fa-solid fa-house-chimney"></i>
+                                  <span class="mycolor">Property Status</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                                  <a class="dropdown-item" href="#">Item 1-1</a>
+                                  <a class="dropdown-item" href="#">Item 1-2</a>
+                                  <a class="dropdown-item" href="#">Item 1-3</a>
+                                </div>
+                              </li>
+                              <li class="nav-item mynavitem dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fa-solid fa-bed"></i>
+                                <span class="mycolor">  Bedrooms</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                  <a class="dropdown-item" href="#">Item 2-1</a>
+                                  <a class="dropdown-item" href="#">Item 2-2</a>
+                                  <a class="dropdown-item" href="#">Item 2-3</a>
+                                </div>
+                              </li>
+                              <li class="nav-item mynavitem dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fa-solid fa-bath"></i>
+                                 <span class="mycolor"> Bathrooms</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                                  <a class="dropdown-item" href="#">Item 3-1</a>
+                                  <a class="dropdown-item" href="#">Item 3-2</a>
+                                  <a class="dropdown-item" href="#">Item 3-3</a>
+                                </div>
+                              </li>
+                            </ul>
+                            </div>
+                             </nav>
+
+                             </div>
+
+                             <div class="row mt-4 myrow">
+
+
+
+                              <div class="selectorclass">
+                             <div class=" container mt-4">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="form-group">
+                                          <label for="rangeSelector">Area Size</label>
+                                          <input type="range" class="form-control-range" id="rangeSelector" min="0" max="1300" value="0">
+                                        </div>
+                                        <div class="range-label">
+                                          <span id="rangeMinValue">0 sqft</span>
+                                          <span class="maxrange" id="rangeMaxValue">1300 sqft</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                             </div>
+
+                          <script>
+                            const rangeSelector = document.getElementById('rangeSelector');
+                            const rangeMinValue = document.getElementById('rangeMinValue');
+                            const rangeMaxValue = document.getElementById('rangeMaxValue');
+
+                            rangeSelector.addEventListener('input', updateRangeValues);
+
+                            function updateRangeValues() {
+                              const value = rangeSelector.value;
+                              rangeMinValue.textContent = `${value} sqft`;
+                              rangeMaxValue.textContent = `${1300 - value} sqft`;
+                              }
+                          </script>
+
+                        <div class=" container mt-4">
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <label for="rangeSelector">Price Range</label>
+                                    <input type="range" class="form-control-range" id="rangeSelector" min="0" max="1300" value="0">
+                                  </div>
+                                  <div class="range-label">
+                                    <span id="rangeMinValue">0 sqft</span>
+                                    <span class="maxrange" id="rangeMaxValue">1300 sqft</span>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <script>
+                            const rangeSelector = document.getElementById('rangeSelector');
+                            const rangeMinValue = document.getElementById('rangeMinValue');
+                            const rangeMaxValue = document.getElementById('rangeMaxValue');
+
+                            rangeSelector.addEventListener('input', updateRangeValues);
+
+                            function updateRangeValues() {
+                              const value = rangeSelector.value;
+                              rangeMinValue.textContent = `${value} sqft`;
+                              rangeMaxValue.textContent = `${1300 - value} sqft`;
+                            }
+                       </script>
+                    </div>
+
+
+                    <div class="col-md-7">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox1">
+                            <label class="form-check-label" for="checkbox1">Checkbox 1</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox2">
+                            <label class="form-check-label" for="checkbox2">Checkbox 2</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox3">
+                            <label class="form-check-label" for="checkbox3">Checkbox 3</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox4">
+                            <label class="form-check-label" for="checkbox4">Checkbox 4</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox5">
+                            <label class="form-check-label" for="checkbox5">Checkbox 5</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox6">
+                            <label class="form-check-label" for="checkbox6">Checkbox 6</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox7">
+                            <label class="form-check-label" for="checkbox7">Checkbox 7</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox8">
+                            <label class="form-check-label" for="checkbox8">Checkbox 8</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox9">
+                            <label class="form-check-label" for="checkbox9">Checkbox 9</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox10">
+                            <label class="form-check-label" for="checkbox10">Checkbox 10</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox11">
+                            <label class="form-check-label" for="checkbox11">Checkbox 11</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox12">
+                            <label class="form-check-label" for="checkbox12">Checkbox 12</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox13">
+                            <label class="form-check-label" for="checkbox13">Checkbox 13</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox14">
+                            <label class="form-check-label" for="checkbox14">Checkbox 14</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+               </div>
+               </div>
+
+                </div>
+                      <!-- End of mycardbody -->
+                </div>
+
+                </div>
+                    <!-- End of mycard -->
+              </div>
+
+
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                 
+
+                <div class="container mycontainer">
+                  <div class="card mycard">
+                    <div class="card-body mycardbody">
+                        <!-- <h5 class="card-title">Property Search</h5> -->
+                        <form>
+                          <div class="form-row myform">
+                            <div class="form-group col-md-6">
+                              <input type="text" class="form-control myformcontrol" placeholder="Enter keyword">
+                            </div>
+                            <div class="form-group col-md-3">
+                              <select class="form-select myformselect" id="propertyType">
+                                <option selected>Property Type</option>
+                                <option value="house">House</option>
+                                <option value="apartment">Apartment</option>
+                                <option value="condo">Condo</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-md-3">
+                              <select class="form-select myformselect" id="location">
+                                <option selected>Location</option>
+                                <option value="city">City</option>
+                                <option value="suburb">Suburb</option>
+                                <option value="countryside">Countryside</option>
+                              </select>
+                            </div>
+                          </div>
+                          <button class="btn  mybtnprimary">Search</button>
+                        </form>
+
+
+                      <!-- Advnace Search Bar -->
+                         <div class="container mt-5">
+                             <button id="toggle-button" class="btn mytogglebtn ">
+                                   Advance Search
+                             </button>
+                             <div id="hidden-content" class="mt-3">
+
+                                  <script>
+                                    const toggleButton = document.getElementById('toggle-button');
+                                    const hiddenContent = document.getElementById('hidden-content');
+                                    let isVisible = false;
+
+                                    toggleButton.addEventListener('click', () => {
+                                      if (isVisible) {
+                                        hiddenContent.style.display = 'none';
+                                      } else {
+                                        hiddenContent.style.display = 'block';
+                                      }
+                                      isVisible = !isVisible;
+                                    });
+                                  </script>
+
+   
+     <div class="container mt-4">
+         <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mynavbar1">
+                       <li class="nav-item mynavitem dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true"                                                                                                             aria-expanded="false">
+                             <i class="fa-solid fa-house-chimney"></i>
+                             <span>Property Status</span>
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                              <a class="dropdown-item" href="#">Item 1-1</a>
+                              <a class="dropdown-item" href="#">Item 1-2</a>
+                              <a class="dropdown-item" href="#">Item 1-3</a>
+                           </div>
+                       </li>
+                       <li class="nav-item mynavitem dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true"                                                                                                             aria-expanded="false">
+                            <i class="fa-solid fa-bed"></i>
+                              <span>  Bedrooms</span>
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                            <a class="dropdown-item" href="#">Item 2-1</a>
+                            <a class="dropdown-item" href="#">Item 2-2</a>
+                            <a class="dropdown-item" href="#">Item 2-3</a>
+                          </div>
+                        </li>
+                        <li class="nav-item mynavitem dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true"                                                                                                             aria-expanded="false">
+                              <i class="fa-solid fa-bath"></i>
+                                 <span> Bathrooms</span>
+                           </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                              <a class="dropdown-item" href="#">Item 3-1</a>
+                              <a class="dropdown-item" href="#">Item 3-2</a>
+                              <a class="dropdown-item" href="#">Item 3-3</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+
+            </div>
+
+     <div class="row mt-4 myrow">
+
+
+
+      <div class="selectorclass">
+     <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="rangeSelector">Area Size</label>
+                  <input type="range" class="form-control-range" id="rangeSelector" min="0" max="1300" value="0">
+                </div>
+                <div class="range-label">
+                  <span id="rangeMinValue">0 sqft</span>
+                  <span class="maxrange" id="rangeMaxValue">1300 sqft</span>
+                </div>
+              </div>
+            </div>
+     </div>
+
+        <script>
+            const rangeSelector = document.getElementById('rangeSelector');
+            const rangeMinValue = document.getElementById('rangeMinValue');
+            const rangeMaxValue = document.getElementById('rangeMaxValue');
+
+            rangeSelector.addEventListener('input', updateRangeValues);
+
+            function updateRangeValues() {
+              const value = rangeSelector.value;
+              rangeMinValue.textContent = `${value} sqft`;
+              rangeMaxValue.textContent = `${1300 - value} sqft`;
+            }
+       </script>
+
+      <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="rangeSelector">Price Range</label>
+                  <input type="range" class="form-control-range" id="rangeSelector" min="0" max="1300" value="0">
+                </div>
+                <div class="range-label">
+                  <span id="rangeMinValue">0 sqft</span>
+                  <span class="maxrange" id="rangeMaxValue">1300 sqft</span>
+                </div>
+              </div>
+            </div>
+     </div>
+
+        <script>
+            const rangeSelector = document.getElementById('rangeSelector');
+            const rangeMinValue = document.getElementById('rangeMinValue');
+            const rangeMaxValue = document.getElementById('rangeMaxValue');
+
+            rangeSelector.addEventListener('input', updateRangeValues);
+
+            function updateRangeValues() {
+              const value = rangeSelector.value;
+              rangeMinValue.textContent = `${value} sqft`;
+              rangeMaxValue.textContent = `${1300 - value} sqft`;
+            }
+       </script>
+
+     
+        </div>
+
+
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox1">
+                    <label class="form-check-label" for="checkbox1">Checkbox 1</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox2">
+                    <label class="form-check-label" for="checkbox2">Checkbox 2</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox3">
+                    <label class="form-check-label" for="checkbox3">Checkbox 3</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox4">
+                    <label class="form-check-label" for="checkbox4">Checkbox 4</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox5">
+                    <label class="form-check-label" for="checkbox5">Checkbox 5</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox6">
+                    <label class="form-check-label" for="checkbox6">Checkbox 6</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox7">
+                    <label class="form-check-label" for="checkbox7">Checkbox 7</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox8">
+                    <label class="form-check-label" for="checkbox8">Checkbox 8</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox9">
+                    <label class="form-check-label" for="checkbox9">Checkbox 9</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox10">
+                    <label class="form-check-label" for="checkbox10">Checkbox 10</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox11">
+                    <label class="form-check-label" for="checkbox11">Checkbox 11</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox12">
+                    <label class="form-check-label" for="checkbox12">Checkbox 12</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox13">
+                    <label class="form-check-label" for="checkbox13">Checkbox 13</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox14">
+                    <label class="form-check-label" for="checkbox14">Checkbox 14</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+       </div>
+     </div>
+     </div>
+                    </div>
+                  </div>
+                </div>
+	            </div>
+
+</section>
+
+
+<section>
+  <div class="parent1">  
+    <div class="p1r1 col-md-12">
+      <h1>Popular Places</h1>
+      <p>Properties In Most Popular Places</p>
+    </div>
+    <div class="row p1r2 ">
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/15.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/10.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/5.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/6.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+      
+    </div>
+    <!-- 3rd column -->
+    <div class="row  p1r3">
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/9.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/14.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/13.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <img src="https://code-theme.com/html/findhouses/images/popular-places/12.jpg">
+        <span>
+          <h5>New york</h5>
+          <p>203 properties</p>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="parent2">
+    <div class="col-md-12">
+      <span>
+        <h3>Featured Properties</h3>
+        <p>These are our Featured Properties</p>
+      </span>
+    </div>
+    <div class="p2r2 ">
+      <div class="col-md-6">
+          <div class="home-img">
+            <a href="" class="featured"> Featured</a>
+            <a href="" class="sale">For sale</a>
+            <img src="https://code-theme.com/html/findhouses/images/blog/b-11.jpg" class="img-reponsive">
+
+            <div class="button-effect">
+              <a href="" class="btn">
+                <i class="fa fa-link " ></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fas fa-video"></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fa-solid fa-image"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="home-content"> 
+            <div class="content1">
+              <h3>
+                <a href="">Real Luxury Family House Villa</a>
+              </h3>
+              <p>
+                <a href="">
+                  <i class="fa fa-map-marker"></i>
+                  <span style="color: darkgray;">Est St, 77 - Central Park South, NYC</span>
+                </a>
+              </p>
+            </div>
+            <ul>
+              <li class="list1">
+                <i class="flaticon-bed mr-2 " aria-hidden="true"></i>
+                <span>6 Bedrooms</span>
+              </li>
+              <li>
+                <i class="flaticon-bathtub mr-2" aria-hidden="true"></i>
+                <span>3 Bathrooms</span>
+              </li>
+              <li class="list3">
+                <i class="flaticon-square mr-2 " aria-hidden="true"></i>
+                <span>720 sq ft</span>
+              </li>
+              <li>
+                <i class="flaticon-car mr-2" aria-hidden="true"></i>
+                <span>2 Garages</span>
+              </li>
+            </ul>
+            <div class="content-footer">
+              <h3>
+                <a href="">$ 150,000</a>
+              </h3>
+              <div class="copmare">
+                <a href=""><i class="fa-solid fa-code-compare fa-rotate-270"></i></a>
+                <a href=""><i class="fa-solid fa-share-nodes"></i></i></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+            
+      </div>
+      <div class="col-md-6">
+          <div class="home-img">
+            <a href="" class="featured"> Featured</a>
+            <a href="" class="sale">For sale</a>
+            <img src="https://code-theme.com/html/findhouses/images/blog/b-12.jpg">
+
+            <div class="button-effect">
+              <a href="" class="btn">
+                <i class="fa fa-link " ></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fas fa-video"></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fa-solid fa-image"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="home-content"> 
+            <div class="content1">
+              <h3>
+                <a href="">Real Luxury Family House Villa</a>
+              </h3>
+              <p>
+                <a href="">
+                  <i class="fa fa-map-marker"></i>
+                  <span style="color: darkgray;">Est St, 77 - Central Park South, NYC</span>
+                </a>
+              </p>
+            </div>
+            <ul>
+              <li class="list1">
+                <i class="flaticon-bed mr-2 " aria-hidden="true"></i>
+                <span>6 Bedrooms</span>
+              </li>
+              <li>
+                <i class="flaticon-bathtub mr-2" aria-hidden="true"></i>
+                <span>3 Bathrooms</span>
+              </li>
+              <li class="list3">
+                <i class="flaticon-square mr-2 " aria-hidden="true"></i>
+                <span>720 sq ft</span>
+              </li>
+              <li>
+                <i class="flaticon-car mr-2" aria-hidden="true"></i>
+                <span>2 Garages</span>
+              </li>
+            </ul>
+            <div class="content-footer">
+              <h3>
+                <a href="">$ 150,000</a>
+              </h3>
+              <div class="copmare">
+                <a href=""><i class="fa-solid fa-code-compare fa-rotate-270"></i></a>
+                <a href=""><i class="fa-solid fa-share-nodes"></i></i></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+            
+      </div>
+    </div>
+    <div class="p2r3 ">
+      <div class="col-md-6">
+          <div class="home-img">
+            <a href="" class="featured"> Featured</a>
+            <a href="" class="sale">For sale</a>
+            <img src="https://code-theme.com/html/findhouses/images/blog/b-1.jpg" class="img-reponsive">
+
+            <div class="button-effect">
+              <a href="" class="btn">
+                <i class="fa fa-link " ></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fas fa-video"></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fa-solid fa-image"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="home-content"> 
+            <div class="content1">
+              <h3>
+                <a href="">Real Luxury Family House Villa</a>
+              </h3>
+              <p>
+                <a href="">
+                  <i class="fa fa-map-marker"></i>
+                  <span style="color: darkgray;">Est St, 77 - Central Park South, NYC</span>
+                </a>
+              </p>
+            </div>
+            <ul>
+              <li class="list1">
+                <i class="flaticon-bed mr-2 " aria-hidden="true"></i>
+                <span>6 Bedrooms</span>
+              </li>
+              <li>
+                <i class="flaticon-bathtub mr-2" aria-hidden="true"></i>
+                <span>3 Bathrooms</span>
+              </li>
+              <li class="list3">
+                <i class="flaticon-square mr-2 " aria-hidden="true"></i>
+                <span>720 sq ft</span>
+              </li>
+              <li>
+                <i class="flaticon-car mr-2" aria-hidden="true"></i>
+                <span>2 Garages</span>
+              </li>
+            </ul>
+            <div class="content-footer">
+              <h3>
+                <a href="">$ 150,000</a>
+              </h3>
+              <div class="copmare">
+                <a href=""><i class="fa-solid fa-code-compare fa-rotate-270"></i></a>
+                <a href=""><i class="fa-solid fa-share-nodes"></i></i></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+            
+      </div>
+      <div class="col-md-6">
+          <div class="home-img">
+            <a href="" class="featured"> Featured</a>
+            <a href="" class="sale">For sale</a>
+            <img src="https://code-theme.com/html/findhouses/images/feature-properties/fp-10.jpg">
+
+            <div class="button-effect">
+              <a href="" class="btn">
+                <i class="fa fa-link " ></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fas fa-video"></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fa-solid fa-image"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="home-content"> 
+            <div class="content1">
+              <h3>
+                <a href="">Real Luxury Family House Villa</a>
+              </h3>
+              <p>
+                <a href="">
+                  <i class="fa fa-map-marker"></i>
+                  <span style="color: darkgray;">Est St, 77 - Central Park South, NYC</span>
+                </a>
+              </p>
+            </div>
+            <ul>
+              <li class="list1">
+                <i class="flaticon-bed mr-2 " aria-hidden="true"></i>
+                <span>6 Bedrooms</span>
+              </li>
+              <li>
+                <i class="flaticon-bathtub mr-2" aria-hidden="true"></i>
+                <span>3 Bathrooms</span>
+              </li>
+              <li class="list3">
+                <i class="flaticon-square mr-2 " aria-hidden="true"></i>
+                <span>720 sq ft</span>
+              </li>
+              <li>
+                <i class="flaticon-car mr-2" aria-hidden="true"></i>
+                <span>2 Garages</span>
+              </li>
+            </ul>
+            <div class="content-footer">
+              <h3>
+                <a href="">$ 150,000</a>
+              </h3>
+              <div class="copmare">
+                <a href=""><i class="fa-solid fa-code-compare fa-rotate-270"></i></a>
+                <a href=""><i class="fa-solid fa-share-nodes"></i></i></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+            
+      </div>
+    </div>
+    <div class="p2r4 ">
+      <div class="col-md-6">
+          <div class="home-img">
+            <a href="" class="featured"> Featured</a>
+            <a href="" class="sale">For sale</a>
+            <img src="https://code-theme.com/html/findhouses/images/blog/b-11.jpg" class="img-reponsive">
+
+            <div class="button-effect">
+              <a href="" class="btn">
+                <i class="fa fa-link " ></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fas fa-video"></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fa-solid fa-image"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="home-content"> 
+            <div class="content1">
+              <h3>
+                <a href="">Real Luxury Family House Villa</a>
+              </h3>
+              <p>
+                <a href="">
+                  <i class="fa fa-map-marker"></i>
+                  <span style="color: darkgray;">Est St, 77 - Central Park South, NYC</span>
+                </a>
+              </p>
+            </div>
+            <ul>
+              <li class="list1">
+                <i class="flaticon-bed mr-2 " aria-hidden="true"></i>
+                <span>6 Bedrooms</span>
+              </li>
+              <li>
+                <i class="flaticon-bathtub mr-2" aria-hidden="true"></i>
+                <span>3 Bathrooms</span>
+              </li>
+              <li class="list3">
+                <i class="flaticon-square mr-2 " aria-hidden="true"></i>
+                <span>720 sq ft</span>
+              </li>
+              <li>
+                <i class="flaticon-car mr-2" aria-hidden="true"></i>
+                <span>2 Garages</span>
+              </li>
+            </ul>
+            <div class="content-footer">
+              <h3>
+                <a href="">$ 150,000</a>
+              </h3>
+              <div class="copmare">
+                <a href=""><i class="fa-solid fa-code-compare fa-rotate-270"></i></a>
+                <a href=""><i class="fa-solid fa-share-nodes"></i></i></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+            
+      </div>
+      <div class="col-md-6">
+          <div class="home-img">
+            <a href="" class="featured"> Featured</a>
+            <a href="" class="sale">For sale</a>
+            <img src="https://code-theme.com/html/findhouses/images/blog/b-12.jpg">
+
+            <div class="button-effect">
+              <a href="" class="btn">
+                <i class="fa fa-link " ></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fas fa-video"></i>
+              </a>
+              <a href="" class="btn">
+                <i class="fa-solid fa-image"></i>
+              </a>
+            </div>
+
+          </div>
+          <div class="home-content"> 
+            <div class="content1">
+              <h3>
+                <a href="">Real Luxury Family House Villa</a>
+              </h3>
+              <p>
+                <a href="">
+                  <i class="fa fa-map-marker"></i>
+                  <span style="color: darkgray;">Est St, 77 - Central Park South, NYC</span>
+                </a>
+              </p>
+            </div>
+            <ul>
+              <li class="list1">
+                <i class="flaticon-bed mr-2 " aria-hidden="true"></i>
+                <span>6 Bedrooms</span>
+              </li>
+              <li>
+                <i class="flaticon-bathtub mr-2" aria-hidden="true"></i>
+                <span>3 Bathrooms</span>
+              </li>
+              <li class="list3">
+                <i class="flaticon-square mr-2 " aria-hidden="true"></i>
+                <span>720 sq ft</span>
+              </li>
+              <li>
+                <i class="flaticon-car mr-2" aria-hidden="true"></i>
+                <span>2 Garages</span>
+              </li>
+            </ul>
+            <div class="content-footer">
+              <h3>
+                <a href="">$ 150,000</a>
+              </h3>
+              <div class="copmare">
+                <a href=""><i class="fa-solid fa-code-compare fa-rotate-270"></i></a>
+                <a href=""><i class="fa-solid fa-share-nodes"></i></i></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+            
+      </div>
+    </div>
+    <div class="viewmore col-md">
+      <a href="" class="btn">View More</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div>
+    <div class="col-md parent3 ">
+      <h3>Why Choose US</h3>
+      <span>we provide full services at every step</span>
+    </div>
+  </div>
+  <div class="parent4">
+     <div class="col-md-3 card1">
+        <img src="https://code-theme.com/html/findhouses/images/icons/icon-4.svg">
+        <h4>Wide Renge Of Properties</h4>
+        <p>lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory. </p>
+     </div>
+      <div class="col-md-3 card2">
+        <img src="https://code-theme.com/html/findhouses/images/icons/icon-5.svg">
+        <h4>Wide Renge Of Properties</h4>
+        <p>lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory. </p>
+     </div>
+      <div class="col-md-3 card3">
+        <img src="https://code-theme.com/html/findhouses/images/icons/icon-6.svg">
+        <h4>Wide Renge Of Properties</h4>
+        <p>lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory. </p>
+     </div>
+      <div class="col-md-3 card4">
+        <img src="https://code-theme.com/html/findhouses/images/icons/icon-15.svg">
+        <h4>Wide Renge Of Properties</h4>
+        <p>lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory. </p>
+     </div>
+  </div>
+ 
+</section>
+
+<section class="discoverproperties">
+  <div class="col-md parent5">
+    <h3>Discover Popular Properties</h3>
+    <span>We provide full service at every step.</span>
+  </div>
+
+ 
+    <div class="parent6">
+      <div class="col-md-3 card1-1">
+        <img src="https://code-theme.com/html/findhouses/images/blog/b-11.jpg">
+        <a class="featured1" href="">Featured</a>
+        <a class="sale1" href="">For sale</a>
+        <div class="textbox1">
+          <h5>Real House Luxury villa</h5>
+          <span>Est St,77-Central Park South,NYC</span>
+          <div class="tb1items">
+
+            <span><i class="fa-solid fa-bed"></i> 6 bedrooms</span>
+            <span><i class="fa-solid fa-bath"></i> 3bathrooms</span>
+            <span><i class="fa-solid fa-ruler-combined"></i> 760sqft</span>
+            <span><i class="fa-solid fa-car"></i> 2garages</span>
+          </div>
+          <div class="tb1items1">
+            <span>$15000</span>
+            <span><i class="fa-solid fa-code-compare fa-rotate-270"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                  <i class="fa-regular fa-heart"></i>
+            </span>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 card1-1 ">
+        <img src="https://code-theme.com/html/findhouses/images/blog/b-12.jpg">
+         <a class="featured1" href="">Featured</a>
+        <a class="sale1" href="">For sale</a>
+        <div class="textbox1">
+          <h5>Real House Luxury villa</h5>
+          <span>Est St,77-Central Park South,NYC</span>
+          <div class="tb1items">
+
+            <span><i class="fa-solid fa-bed"></i> 6 bedrooms</span>
+            <span><i class="fa-solid fa-bath"></i> 3bathrooms</span>
+            <span><i class="fa-solid fa-ruler-combined"></i> 760sqft</span>
+            <span><i class="fa-solid fa-car"></i> 2garages</span>
+          </div>
+          <div class="tb1items1">
+            <span>$15000</span>
+            <span><i class="fa-solid fa-code-compare fa-rotate-270"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                  <i class="fa-regular fa-heart"></i>
+            </span>
+
+          </div>
+        </div>
+      </div>
+       
+      <div class="col-md-3 card1-1 ">
+        <img src="https://code-theme.com/html/findhouses/images/blog/b-1.jpg">
+         <a class="featured1" href="">Featured</a>
+         <a class="sale1" href="">For sale</a>
+        <div class="textbox1">
+          <h5>Real House Luxury villa</h5>
+          <span>Est St,77-Central Park South,NYC</span>
+          <div class="tb1items">
+
+            <span><i class="fa-solid fa-bed"></i> 6 bedrooms</span>
+            <span><i class="fa-solid fa-bath"></i> 3bathrooms</span>
+            <span><i class="fa-solid fa-ruler-combined"></i> 760sqft</span>
+            <span><i class="fa-solid fa-car"></i> 2garages</span>
+          </div>
+          <div class="tb1items1">
+            <span>$15000</span>
+            <span><i class="fa-solid fa-code-compare fa-rotate-270"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                  <i class="fa-regular fa-heart"></i>
+            </span>
+
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-3 card1-1 ">
+        <img src="https://code-theme.com/html/findhouses/images/feature-properties/fp-10.jpg">
+         <a class="featured1" href="">Featured</a>
+         <a class="sale1" href="">For sale</a>
+        <div class="textbox1">
+          <h5>Real House Luxury villa</h5>
+          <span>Est St,77-Central Park South,NYC</span>
+          <div class="tb1items">
+
+            <span><i class="fa-solid fa-bed"></i> 6 bedrooms</span>
+            <span><i class="fa-solid fa-bath"></i> 3bathrooms</span>
+            <span><i class="fa-solid fa-ruler-combined"></i> 760sqft</span>
+            <span><i class="fa-solid fa-car"></i> 2garages</span>
+          </div>
+          <div class="tb1items1">
+            <span>$15000</span>
+            <span><i class="fa-solid fa-code-compare fa-rotate-270"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                  <i class="fa-regular fa-heart"></i>
+            </span>
+
+          </div>
+        </div>
+       </div>
+    </div>
+
+</section>
+
+<section class="meetourage">
+  
+  <div class="col-md parent7 ">
+      <h3>Meet Our Agents</h3>
+      <span>Our Agents are here to help you</span>
+  </div>
+
+  <div class="row p7row1">
+
+    <div class="col-md-2 p7card1 ">
+      <img src="pic2.jpg">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <h5>
+        <a href="">Carls Jhons</a>
+      </h5>
+      <span>Real Estate Agent</span>
+    </div>
+
+    <div class="col-md-2 p7card1 ">
+      <img src="pic2.jpg">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <h5>
+        <a href="">Carls Jhons</a>
+      </h5>
+      <span>Real Estate Agent</span>
+    </div>
+
+    <div class="col-md-2 p7card1 ">
+      <img src="pic2.jpg">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <h5>
+        <a href="">Carls Jhons</a>
+      </h5>
+      <span>Real Estate Agent</span>
+    </div>
+
+    <div class="col-md-2 p7card1 ">
+      <img src="pic2.jpg">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <h5>
+        <a href="">Carls Jhons</a>
+      </h5>
+      <span>Real Estate Agent</span>
+    </div>
+
+    <div class="col-md-2 p7card1 ">
+      <img src="pic2.jpg">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <h5>
+        <a href="">Carls Jhons</a>
+      </h5>
+      <span>Real Estate Agent</span>
+    </div>
+
+    <div class="col-md-2 p7card1 ">
+      <img src="pic2.jpg">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <h5>
+        <a href="">Carls Jhons</a>
+      </h5>
+      <span>Real Estate Agent</span>
+    </div>
+    
+  </div>
+
+</section>
+
+<section class="clienttestimonials">
+   <div class="col-md parent8 ">
+      <h3>Clients Testimonials</h3>
+      <span>We collect reviews from our customers</span>
+  </div>
+
+  <div class="row parent9">
+    <div class="col-md-4 ">
+      <div class="p8card1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore gna a.
+       Ut enim ad minim veniam,</p>
+       <div class="p8items">
+         <span class="span1">
+           <img src="pic5.jpg">
+         </span>
+         <div class="p8text">
+           <h5>
+             Lisa Smith
+           </h5>
+           <span>New York</span>
+         </div>
+         <img src="pic3.png">
+       </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p8card1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore gna a.
+       Ut enim ad minim veniam,</p>
+       <div class="p8items">
+         <span class="span1">
+           <img src="pic5.jpg">
+         </span>
+         <div class="p8text">
+           <h5>
+             Lisa Smith
+           </h5>
+           <span>New York</span>
+         </div>
+         <img src="pic3.png">
+       </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p8card1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore gna a.
+       Ut enim ad minim veniam,</p>
+       <div class="p8items">
+         <span class="span1">
+           <img src="pic5.jpg">
+         </span>
+         <div class="p8text">
+           <h5>
+             Lisa Smith
+           </h5>
+           <span>New York</span>
+         </div>
+         <img src="pic3.png">
+       </div>
+      </div>
+    </div>
+   
+   
+  </div>
+</section>
+
+
+<section class="ourpartners">
+   <div class="col-md parent10 ">
+      <h3>Our Partners</h3>
+      <span>The Companies that represents us</span>
+  </div>
+
+   <div class="row">
+
+       <div class="col-md-2">
+         <img src="pic6.jpg">
+       </div>
+
+        <div class="col-md-2">
+         <img src="pic7.jpg">
+       </div>
+
+        <div class="col-md-2">
+         <img src="pic8.jpg">
+       </div>
+
+        <div class="col-md-2">
+         <img src="pic9.jpg">
+       </div>
+
+        <div class="col-md-2">
+         <img src="pic10.jpg">
+       </div>
+
+        <div class="col-md-2">
+         <img src="pic11.jpg">
+       </div>
+   
+   </div>
+    
+</section>
+
+
+<section class="footer">
+  <div class="row parent10">
+  
+    <div class="col-md-3">
+        <div class="column1">
+        <h5>Find Houses</h5>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam,
+         perspiciatis, aspernatur officiis esse.</p>
+
+         <div class="col1items">
+           <span>
+            <i class="fa-solid fa-location-pin"></i>
+           95 South Park Avenue, USA</span>
+           <span>
+            <i class="fa-solid fa-phone"></i>
+           +456 875 369 208</span>
+           <span>
+            <i class="fa-solid fa-envelope"></i>
+           support@findhouses.com</span>
+         </div>
+       </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="column2">
+        <h5>Navigation</h5>
+      <div class="boottom-boreder"></div>
+      <div class="cl2items">
+        <div class="cl2itemsa">
+          <a href="">Home One</a>
+          <a href="">Properties Right</a>
+          <a href="">Properties list</a>
+          <a href="">Properties list</a>
+          <a href="">Agents Listing</a>
+        </div>
+
+        <div class="cl2itemsb">
+          <a href="">Agents Details</a>
+          <a href="">About US</a>
+          <a href="">Blog Default</a>
+          <a href="">Blog Details</a>
+          <a href="">Contact US</a>
+        </div>
+        
+      </div>
+      </div>  
+    </div>
+
+    <div class="col-md-3">
+      <div class="column3">
+        <h5>TwitterFeeds</h5>
+      </div>
+
+      <div class="cl3items">
+        <span>
+          <i class="fa-brands fa-twitter"></i>
+          <a href="">@Findhouses</a>
+          All Share Them With Me Baby Said Inspet.</br>
+          <b>About 5 days ago</b>
+
+        </span>
+
+        
+        <span>
+          <i class="fa-brands fa-twitter"></i>
+          <a href="">@Findhouses</a>
+          All Share Them With Me Baby Said Inspet.
+          <b>About 5 days ago</br>
+        </span>  
+
+        <span>
+          <i class="fa-brands fa-twitter"></i>
+          <a href="">@Findhouses</a>
+          All Share Them With Me Baby Said Inspet.</br>
+
+
+          <b>About 5 days ago</b>
+        </span>
+
+        
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="column4">
+        <h5>Newsletter</h5>
+        <p>Sign Up for Our Newsletter to get Latest Updates and Offers. 
+        Subscribe to receive news in your inbox.</p>
+        <input type="" name="" placeholder="Enter Your Email">
+        <button>SUBSCRIBE</button>
+      </div>
+    </div>
+  </div>
+  
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
